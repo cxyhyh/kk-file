@@ -55,6 +55,8 @@ public class OnlinePreviewController {
     @RequestMapping(value = "/onlinePreview")
     public String onlinePreview(String url, Model model, HttpServletRequest req) {
         String fileUrl;
+
+
 //        try {
 //            fileUrl = new String(Base64.getMimeDecoder().decode(url), StandardCharsets.UTF_8);
 //            //fileUrl = new String(Base64.decodeBase64(url), StandardCharsets.UTF_8);
