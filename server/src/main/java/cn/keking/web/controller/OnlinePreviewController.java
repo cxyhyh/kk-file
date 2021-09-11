@@ -1,8 +1,6 @@
 package cn.keking.web.controller;
 
-import cn.keking.config.ConfigConstants;
 import cn.keking.model.FileAttribute;
-import cn.keking.model.FileType;
 import cn.keking.service.FilePreview;
 import cn.keking.service.FilePreviewFactory;
 
@@ -12,6 +10,7 @@ import cn.keking.service.FileHandlerService;
 import cn.keking.utils.WebUtils;
 import fr.opensagres.xdocreport.core.io.IOUtils;
 import io.mola.galimatias.GalimatiasParseException;
+import io.swagger.annotations.ApiOperation;
 import jodd.io.NetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
